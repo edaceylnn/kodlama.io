@@ -6,11 +6,11 @@ import coffeeShops.Abstract.Entity;
 
 
 public class Customer implements Entity {
-	int id;
-	String firstName;
-	String lastName;
-	LocalDate dateOfBirth;
-	String nationalityId;
+	private int id;
+	private String firstName;
+	private String lastName;
+	private LocalDate dateOfBirth;
+	private String nationalityId;
 	
 	
 	public Customer(int id, String firstName, String lastName, LocalDate dateOfBirth, String nationalityId) {
