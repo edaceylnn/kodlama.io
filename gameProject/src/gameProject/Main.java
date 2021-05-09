@@ -16,7 +16,7 @@ public class Main {
 	public static void main(String[] args) throws RemoteException {
 		
 		GamerManager gamerManager = new GamerManager(new MernisServiceAdapter());
-		gamerManager.add(new Gamer(1, "Eda", "Ceylan", LocalDate.of(1999, 11, 10), "22840228918"));
+		gamerManager.add(new Gamer(1, "Eda", "Ceylan", LocalDate.of(1999, 11, 10), "12345678912"));
 
 		CampaignManager campaignManager = new CampaignManager();
 		campaignManager.add(new Campaign(1,"Yýlbaþý",25));
@@ -24,7 +24,7 @@ public class Main {
 		
 		Game game = new Game(1,"Araba ",120);
 		
-		Gamer gamer = new Gamer(1, "Eda", " Ceylan", LocalDate.of(1999, 11, 10), "22840228918");
+		Gamer gamer = new Gamer(1, "Eda", " Ceylan", LocalDate.of(1999, 11, 10), "12345678912");
 		
 		Campaign campaign = new Campaign(1,"Yýlbaþý",25);
 		
